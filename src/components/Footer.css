@@ -10,6 +10,7 @@
 .footer__social{
     display: flex;
 }
+
 li {
     margin: 0.3rem;
 }

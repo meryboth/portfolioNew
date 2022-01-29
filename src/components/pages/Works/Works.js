@@ -1,8 +1,10 @@
 import React from 'react';
+import Card from './Card';
+import './Works.css';
 
 function Works() {
-  return <div>
-    <h1>Works</h1>
+  return <div className='works'>
+    <Card />
   </div>;
 }
 
