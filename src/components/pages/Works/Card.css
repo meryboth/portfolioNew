@@ -1,7 +1,46 @@
 .card {
+    margin: 0;
+    padding: 0;
     width: 500px;
     height: 300px;
     background-color: lavenderblush;
-    border-radius: 80px;
-    opacity: 0.3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.card__img {
+    margin: 0;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.card__icons{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__icons span {
+    color: #6b6b6b;
+    margin:0rem 1.3rem;
+    font-family: 'Fraunces', serif;
+}
+
+.card__tec, .card__code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b6b6b;
+}
+
+.card__tec li {
+    font-family: 'Commissioner', sans-serif;
 }

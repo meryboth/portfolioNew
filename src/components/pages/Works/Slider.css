@@ -1,0 +1,9 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__icon {
+    margin: 1rem;
+}
