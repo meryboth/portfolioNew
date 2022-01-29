@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer__social{
+    display: flex;
+}
+li {
+    margin: 0.3rem;
+}
