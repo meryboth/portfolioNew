@@ -3,20 +3,24 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return <div className='aboutme'>
-    <div className='aboutme__img'>
-    <img src="https://i.ibb.co/Tr1qFtC/Avatar-Maker-1.png" alt="Avatar-Maker-1" border="3"/>
+    <div className='aboutme__profile'>
+      <div className='aboutme__img'>
+      <img src="https://i.ibb.co/Tr1qFtC/Avatar-Maker-1.png" alt="Avatar-Maker-1" border="3" width={277}/>
+      </div>
+      <div className='aboutme__text'>
+        <h1 className='aboutme__title'>About me</h1>
+        <p>Hi there!  <br />
+        I am Marilyn, a frontend developer based in Buenos Aires, Argentina.
+        React Js is my favorite tool for creating intuitive and funcional web apps.
+        <br />
+        My pasion for design is a big part of my work. My goal in each project is to bring to life the most interesting and creative ideas.
+        <br />
+        When i am not coding i am doing some design work, running, or playing videogames.
+        </p>
+      </div>
     </div>
-    <div className='aboutme__text'>
-      <h1 className='aboutme__title'>About me</h1>
-      <p>Hi there!  <br />
-      I am Marilyn, a frontend developer based in Buenos Aires, Argentina. 
-      React Js is my favorite tool for creating intuitive and funcional web apps.
-      <br />
-      My pasion for design is a big part of my work. My goal in each project is to bring to life the most interesting and creative ideas.
-      <br />
-      When i am not coding i am doing some design work, running, or playing videogames. 
-      </p>
-      <h2 className='aboutme__skills-title'>Skills</h2>
+    <div className='about-skills'>
+    <h2 className='aboutme__skills-title'>Skills</h2>
       <ul className='aboutme__skills'>
         <li><img src="https://icongr.am/devicon/html5-plain.svg?size=25&color=ffffff" alt="" /></li>
         <li><img src="https://icongr.am/devicon/css3-plain.svg?size=25&color=ffffff" alt="" /></li>

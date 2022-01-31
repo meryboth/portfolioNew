@@ -23,7 +23,7 @@ function Header(props) {
             <li className='header__nav-item'>
                 <Link to="/posts">Posts</Link>
             </li>
-            <li className='header__nav-item'><a href="#" className='align-center'><img src="https://icongr.am/fontawesome/github-alt.svg?size=20&color=f0f0f0" alt="cuenta de github" /> Source</a></li>
+            <li className='header__nav-item'><a href="https://github.com/meryboth" className='align-center' target="_blank"><img src="https://icongr.am/fontawesome/github-alt.svg?size=20&color=f0f0f0" alt="cuenta de github" /> Source</a></li>
         </ul>
     </nav>
     </div>

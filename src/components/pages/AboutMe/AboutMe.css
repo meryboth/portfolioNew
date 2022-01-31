@@ -1,11 +1,24 @@
 .aboutme{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme__profile{
+    display: flex;
+}
+
+.about-skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .aboutme__text{
-    width: 400px;
+    width: 300px;
 }
 
 .aboutme__title{
@@ -18,17 +31,18 @@
 }
 
 .aboutme__img{
-    width: 400px;
-    margin-right: 4rem;
+    width: 350px;
 }
 
 
 .aboutme__skills-title{
-    margin-top: 3rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 .aboutme__education-title{
-    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 .aboutme__skills li {
