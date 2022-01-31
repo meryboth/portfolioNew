@@ -1,0 +1,48 @@
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme__text{
+    width: 400px;
+}
+
+.aboutme__title{
+    font-size: 3rem;
+}
+
+.aboutme__skills{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.aboutme__img{
+    width: 400px;
+    margin-right: 4rem;
+}
+
+
+.aboutme__skills-title{
+    margin-top: 3rem;
+}
+
+.aboutme__education-title{
+    margin-top: 1rem;
+}
+
+.aboutme__skills li {
+    margin: 0;
+}
+
+.aboutme__skills img {
+    margin-left: 5px;
+    width: 30px;
+    
+}
+
+.aboutme__education li{
+list-style: circle;
+ margin: 3px 20px;
+ font-family:'Commissioner', sans-serif;
+}

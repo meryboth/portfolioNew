@@ -1,0 +1,10 @@
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.post__title{
+    text-align: center;
+    font-size: 3rem;
+}

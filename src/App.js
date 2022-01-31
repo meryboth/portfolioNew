@@ -23,8 +23,8 @@ function App() {
         <Header />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/works' component={Works} />
           <Route path='/aboutme' component={AboutMe} />
+          <Route path='/works' component={Works} />
           <Route path='/posts' component={Posts} />
         </Switch>
         <Footer />
