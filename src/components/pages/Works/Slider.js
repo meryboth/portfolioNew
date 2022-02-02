@@ -18,6 +18,7 @@ function Slider() {
       <Item
         key={project.id}
         title={project.title}
+        description={project.description}
         img={project.img}
         url={project.url}
         repositorio={project.repositorio}
