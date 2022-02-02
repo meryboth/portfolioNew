@@ -30,6 +30,7 @@ function AboutMe() {
         <li><img src="https://icongr.am/devicon/javascript-plain.svg?size=25&color=ffffff" alt="" /></li>
         <li><img src="https://icongr.am/devicon/git-plain.svg?size=25&color=ffffff" alt="" /></li>
         <li><img src="https://icongr.am/devicon/photoshop-line.svg?size=25&color=ffffff" alt="" /></li>
+        <li><ion-icon name="logo-figma"></ion-icon></li>
       </ul>
       <h2 className='aboutme__education-title'>Education</h2>
       <ul className='aboutme__education'>
