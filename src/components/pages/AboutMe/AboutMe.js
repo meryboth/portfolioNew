@@ -5,7 +5,7 @@ function AboutMe() {
   return <div className='aboutme'>
     <div className='aboutme__profile'>
       <div className='aboutme__img'>
-      <img src="https://i.ibb.co/Tr1qFtC/Avatar-Maker-1.png" alt="Avatar-Maker-1" border="3" width={277}/>
+      <div className='aboutme__content'><img src={"./images/mbotheatoz.png"} alt="Marilyn Botheatoz"/></div>
       </div>
       <div className='aboutme__text'>
         <h1 className='aboutme__title'>About me</h1>
