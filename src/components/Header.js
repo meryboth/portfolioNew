@@ -15,9 +15,6 @@ function Header(props) {
         <nav>
         <ul className='header__nav'>
             <li className='header__nav-item'>
-                <Link to="/aboutme">About me</Link>
-            </li>
-            <li className='header__nav-item'>
                 <Link to="/works">Works</Link>
             </li>
             <li className='header__nav-item'>

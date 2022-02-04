@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Home from './components/pages/Home/Home';
 import Works from './components/pages/Works/Works';
 import Posts from './components/pages/Posts/Posts';
-import AboutMe from './components/pages/AboutMe/AboutMe';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -23,7 +22,6 @@ function App() {
         <Header />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/aboutme' component={AboutMe} />
           <Route path='/works' component={Works} />
           <Route path='/posts' component={Posts} />
         </Switch>
