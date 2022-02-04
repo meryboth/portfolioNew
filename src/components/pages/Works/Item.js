@@ -18,8 +18,8 @@ export default function Item(props) {
            </ul>
            <span>|</span>
            <ul className='card__code'>
-             <li><a href={props.repositorio}><ion-icon name="logo-octocat"></ion-icon></a></li>
-             <li><a href={props.url}><ion-icon name="globe-outline"></ion-icon></a></li>
+             <li><a href={props.repositorio} target="_blank"><ion-icon name="logo-octocat"></ion-icon></a></li>
+             <li><a href={props.url} target="_blank"><ion-icon name="globe-outline"></ion-icon></a></li>
            </ul>
          </div>
       </div>
